@@ -1,0 +1,10 @@
+Tuto : http://forum.alsacreations.com/topic-1-67649-1-Design-pattern-MVC-referencement.html 
+
+MODELES (contient les fonctions de traitement)
+Classes avec insert/update etc
+
+VUES (contient le HTML de la page)
+faire classe php qui affiche le bon html
+
+CONTROLEURS (inclut le modele, la vue et exécute la fonction de traitement de Modele)
+en fonction de ce que je reçois dans le get ou poste, je créé l'objet et j'appelle la bonne classe
