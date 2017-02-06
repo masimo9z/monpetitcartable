@@ -1,0 +1,25 @@
+Inscription :
+Pseudo
+Mot de passe
+Répéter le mot de passe
+Email
+Sexe (optionnel) → 0 = veut pas dire , 1 = garçon, 2 = fille
+Date de naissance (optionnel)
+Captcha
+
+Connexion : 
+Pseudo
+Mot de passe
+Bouton de validation
+Mot de passe oublié
+
+
+
+Structure code : modèles / vues / contrôleurs
+
+Wireframes : https://app.moqups.com/patriciamrtn13/r2pUpCh7Ah/view 
+
+Système d’attente pour le jeu en multijoueur :
+
+Si ya pas plusieurs joueurs sur le jeu multi, faire attendre le joueur 10 secondes puis afficher popup qui dit “Voulez vous jouer à un jeu solo ? Vous serez prévenu dès qu’un joueur arrivera sur le mode multi.”.
+Et quand un joueur arrive sur le jeu multi on affiche une notifs à notre joueur qui attendait puor le rediriger sur la page du jeu multi.

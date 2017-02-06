@@ -1,0 +1,100 @@
+Schéma de base de données :
+
+User
+Id
+Pseudo
+rang (1  : user, 2 : prof, 3 : admin)
+groupe (= 0 de base puis l’id du groupe)
+Date de naissance
+IP
+classe (niveau de l’élève : 1-> CP, 2->CE1, 3->CE2, 4->CM1, 5->CM2)
+Mail
+Mot de passe
+Sexe
+Date inscription
+
+Scores
+id
+user_id
+jeu_id
+score valeur
+date ajout
+
+Connectés
+id
+user_id
+user_ip
+timestamp
+
+Jeux
+Id
+Actif
+User MàJ (l’admin qui l’a mis à jour)
+Date maj
+
+Commentaires
+id
+user_id 
+validation (0 ou 1)
+date_ajout
+
+Notes jeu
+id
+jeu_id
+user_id
+note (valeur, de 1 à 5)
+date_ajout
+
+Historique joueurs
+Id
+User_id
+Jeu_id
+Tentatives (champ qui sera mis à jour à chaque partie jouée)
+Date dernière partie (mis à jour en même temps que la tentative)
+
+Groupes (pour école)
+
+id
+nom
+user_id (admin qui gère le groupe)
+
+
+
+La raison du pq : Pour savoir faire, car on le voit pas en cours. Et dire à la soutenance que c’est pas pertinent.
+
+Pour le référencement, expliquer la démarche (en l’hébergeant à l’extérieur pour montrer que ça marche), en disant comment on a choisi les mots clés (via Adword et son trafic), appliquer ce qu’on a fait avec M. KUHM.
+
+Web Socket : Classement en direct ou jeu multijoueur qui nous dit la position ou le score du joueur adverse.
+
+Analyse existant
+Liste fonctionnalités
+Structure du site (arborescence,  module vue controler)
+Wireframe
+Maquettes avec couleurs
+Faire gaffe à l’UX Design/Ergonomie !
+Coder
+
+vue -> html
+modele -> class
+controler -> récupère get/post/url et oriente vers le bon modèle et la bonne vue.
+
+Trouver un prof de primaire pour lui demander ce qu’il faudrait comme exo
+
+
+Cookies de réseaux sociaux, analyse de trafic, publicité ciblée (tarte au citron).
+
+Pour soutenance, bien expliquer la démarche du projet (analyse de l’existant avec les sites où on s’est basé), comment on est arrivé à ce résultat, ce qui s’est bien passé, mal passé
+
+Chaque fois qu’on joue, on perd un coeur, pour gagner des coeurs, il faut faire des tables de multiplication.
+
+Pixabay pour images libres de droit (photos d’animaux)
+
+
+Mettre réglages pour tables de multiplication
+
+
+maquettes :
+accueil
+jeu
+compte
+inscription/connexion
