@@ -1,0 +1,51 @@
+#content{
+
+    #idGameDiv{
+        width: 90%;
+        margin: 0 auto;
+        cursor: url("../img/cursor.png"), pointer;
+        
+//        &:active {
+//            cursor: url("../img/cursor_close.png"), pointer;
+//        }
+        
+        .btn{
+            &.btn-play{
+                position: absolute;
+                top: 62%;
+                left: 400px;
+                background: #2d7fa8;
+                padding:5px;
+                color: #fff;
+                text-transform: uppercase;
+                padding-left:30px;
+                padding-right:30px;
+            }
+        }
+    }
+    
+    .card{
+        &.cardWin{            
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top:-200px;
+            background-image: url(../img/cardWin.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            -webkit-animation-name: cardWin; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+            animation-name: cardWin;
+            animation-duration: 4s;
+        }
+    }
+    
+    @keyframes cardWin {
+        0%   {left:0px; top:0px;width:50px; height:50px;}
+        25%  {left:200px; top:0px;width:150px; height:150px;}
+        50%  {left:200px; top:200px;}
+        75%  {left:0px; top:200px;}
+        80%  {left:0px; top:-200px;transform: rotate(360deg);}
+    }
+}

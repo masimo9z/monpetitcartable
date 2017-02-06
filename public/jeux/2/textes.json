@@ -1,0 +1,240 @@
+{
+    "modes":{
+        "1":{        
+            "level1": {
+                "0": "Les voitures noires sont garées.",
+                "1": "Le facteur n'est pas passé.",
+                "2": "Les enfants sont en train de jouer dans la cours."
+            }, 
+
+            "level2": {
+                "0": "Il y a une vache et deux moutons dans le pré.",
+                "1": "Une souris verte, qui courrait dans l'herbe, je l'attrape par la queue et la montre à ces messieurs.",
+                "2": "Dans mon sac, il y a trois bonbons jaune et un bonbon rouge."
+            }, 
+
+            "level3": {
+                "0": "Ma soeur lit un livre pendant que je joue avec les jouets.",
+                "1": "Le fleuriste prépare des bouquets de fleurs.",
+                "2": "Une souris verte, qui courrait dans l'herbe, je l'attrape par la queue et la montre à ces messieurs."
+            }
+        },
+
+        "2":{        
+            "level1": {
+                "0": "Je mange à la maison.",
+                "1": "Mon frère a tout mangé.",
+                "2": "Je me réveille à 10h."
+            }, 
+
+            "level2": {
+                "0": "Je joue à la maison car il a plu.",
+                "1": "Jordan a gagné au foot.",
+                "2": "Hugo a pêché un brochet à LaChapelle."
+            }, 
+
+            "level3": {
+                "0": "Masi s'entraîne à la salle à Strasbourg.",
+                "1": "Papa a mangé au restaurant avec maman à Paris.",
+                "2": "Ma soeur et moi, on a partagé les jouets à parts égales."
+            }
+        },
+
+        "3":{        
+            "level1": {
+                "0": "Je suis réveillé.",
+                "1": "Je suis sorti jouer.",
+                "2": "Papa a réparé la voiture."
+            }, 
+
+            "level2": {
+                "0": "Ma soeur a arrêté de jouer.",
+                "1": "Maman a posé un gateau dans la salle à manger.",
+                "2": "Hugo a attrapé un poisson."
+            }, 
+
+            "level3": {
+                "0": "Patricia est venue jouer pour gagner !",
+                "1": "Le téléphone m'a glissé des mains et est tombé ",
+                "2": "Papa est monté dans la salon pour y déposer des affaires"
+            }
+        },
+
+        "4":{        
+            "level1": {
+                "0": "Je suis avec Papa et Maman.",
+                "1": "Papa est parti au travail.",
+                "2": "Le professeur est venu parler à Papa et Maman."
+            }, 
+
+            "level2": {
+                "0": "Hugo est monté avec Patricia et Jordan.",
+                "1": "Papa et maman sont dans le salon et moi dans la cuisine.",
+                "2": "La famille et les amis sont les plus importants."
+            }, 
+
+            "level3": {
+                "0": "Hugo et maman sont dans le salon et ma soeur est dans sa chambre.",
+                "1": "Masi est venu à l'école avec Jordan et Patricia.",
+                "2": "Mon ami est déjà parti à Paris, j'aimerai aussi aller à Paris et à New York."
+            }
+        }
+    },
+    
+    "modesNames":{
+        "1": "Singulier / pluriel",
+        "2": "À / A",
+        "3": "Er / É",
+        "4": "Est / Et"
+    },
+    
+    "modesConsignes":{
+        "1": "Un ballon (au singulier donc sans 's'). Des ballons (au pluriel donc avec 's').",
+        "2": "Lorsqu'on peut dire 'avait', alors on écrit 'a' sans accent. Exemple : Je mange à Paris. (on ne peut pas dire 'Je mange avait Paris.'). À l'inverse : 'Ma soeur a grandi' (on peut dire 'Ma soeur avait grandi).",
+        "3": "Consigne 3",
+        "4": "On écrit 'est' lorsqu'il s'agit du verbe ou de l'auxiliaire 'être'  au présent de l'indicatif. On écrit 'et' lorsqu'il s'agit d'une conjonction de coordination qui joue le rôle de lien entre deux mots ou groupe de mots phrases et qu'on ne peut pas conjuguer à l'imparfait. J'ai pris mon cartable *était* je suis parti à l'école."
+    },
+    
+    "corrections":{
+        "1":{
+            "level1":{
+                "1":["Les", "sont"],
+                "2":["Le"],
+                "3":["Les", "sont"]
+            },
+            "level2":{
+                "1":["vache", "moutons"],
+                "2":["Une", "ces"],
+                "3":["bonbons", "bonbon"]
+            },
+            "level3":{
+                "1":["Ma", "un", "les"],
+                "2":["Le", "des", "fleurs"],
+                "3":["Ma"]
+            }
+        },
+        "2":{
+            "level1":{
+                "1":["à"],
+                "2":["a"],
+                "3":["à"]
+            },
+            "level2":{
+                "1":["à", "a"],
+                "2":["a"],
+                "3":["a", "à"]
+            },
+            "level3":{
+                "1":["à", "à"],
+                "2":["a", "à"],
+                "3":["a", "à"]
+            }
+        },
+        "3":{
+            "level1":{
+                "1":["réveillé"],
+                "2":["jouer"],
+                "3":["réparé"]
+            },
+            "level2":{
+                "1":["arrêté", "jouer"],
+                "2":["posé", "manger"],
+                "3":["attrapé"]
+            },
+            "level3":{
+                "1":["jouer", "gagner"],
+                "2":["glissé", "tombé"],
+                "3":["monté", "déposer"]
+            }
+        },
+        "4":{
+            "level1":{
+                "1":["et"],
+                "2":["est"],
+                "3":["est", "et"]
+            },
+            "level2":{
+                "1":["est", "et"],
+                "2":["et", "et"],
+                "3":["et"]
+            },
+            "level3":{
+                "1":["et", "et", "est"],
+                "2":["est", "et"],
+                "3":["est", "et"]
+            }
+        }
+    },
+    
+    "indications":{
+        "1":{
+            "level1":{
+                "1":["La/Les", "est/sont"],
+                "2":["Le/Les"],
+                "3":["Le/Les", "est/sont"]
+            },
+            "level2":{
+                "1":["Vache/Vaches", "Mouton/Moutons"],
+                "2":["Une/Des", "ce/ces"],
+                "3":["bonbon/bonbons", "bonbon/bonbons"]
+            },
+            "level3":{
+                "1":["Ma/Mes", "un/des", "le/les"],
+                "2":["Le/Les", "un/des", "fleur/fleurs"],
+                "3":["Une/Des", "ce/ces"]
+            }
+        },
+        "2":{
+            "level1":{
+                "1":["a/à"],
+                "2":["a/à"],
+                "3":["a/à"]
+            },
+            "level2":{
+                "1":["a/à", "a/à"],
+                "2":["a/à"],
+                "3":["a/à", "a/à"]
+            },
+            "level3":{
+                "1":["a/à", "a/à"],
+                "2":["a/à", "a/à"],
+                "3":["a/à", "a/à"]
+            }
+        },
+        "3":{
+            "level1":{
+                "1":["réveiller/réveillé"],
+                "2":["jouer/joué"],
+                "3":["réparer/réparé"]
+            },
+            "level2":{
+                "1":["arrêter/arrêté", "jouer/joué"],
+                "2":["poser/posé", "manger/mangé"],
+                "3":["attraper/attrapé"]
+            },
+            "level3":{
+                "1":["jouer/joué", "gagné/gagner"],
+                "2":["glisser/glissé", "tomber/tombé"],
+                "3":["monter/monté", "déposer/déposé"]
+            }
+        },
+        "4":{
+            "level1":{
+                "1":["et/est"],
+                "2":["et/est"],
+                "3":["e(s)t", "et/est"]
+            },
+            "level2":{
+                "1":["et/est", "et/est"],
+                "2":["et/est", "et/est"],
+                "3":["et/est"]
+            },
+            "level3":{
+                "1":["et/est", "et/est", "et/est"],
+                "2":["et/est", "et/est"],
+                "3":["et/est", "et/est"]
+            }
+        }
+    }
+}
+
